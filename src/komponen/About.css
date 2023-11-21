@@ -1,0 +1,62 @@
+.about_section {
+    padding: 200px 0;
+    text-align: center;
+    min-height: 100vh;
+    color: #343a40;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+
+    margin-bottom: 50px;
+}
+  
+  .about_container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 150px;
+  }
+  
+  .about_data {
+    max-width: 760px;
+    text-align: left;
+  }
+  
+  .about_description {
+    font-size: 1em;
+    color: #555;
+    line-height: 2;
+    text-align: justify;
+  }
+
+  @media screen and (max-width: 768px) {
+    .about_section {
+        padding: 100px 0;
+    }
+
+    .about_img {
+        width: 50%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 90px;
+    }
+
+    .about_data {
+        font-size: small;
+        max-width: 100%;
+        margin: 0 auto; /* Menengahkan .about_data secara horizontal */
+        text-align: justify; /* Menengahkan teks di dalam .about_data */
+        padding: 0 50px; /* Memberikan sedikit padding kiri dan kanan */
+    }
+}
